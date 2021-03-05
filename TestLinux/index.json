@@ -33,19 +33,19 @@
       "text": "finish.md"
     }
   },
-  "assets": {
-    "client": [
-      {
-        "file": "courseBase.sh",
-        "target": "~/"
-      }
-    ],
-    "host01": [
-      {
-        "file": "courseBase.sh",
-        "target": "~/"
-      }
-    ]
+    "assets": {
+      "client": [
+        {
+          "file": "courseBase.sh",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "courseBase.sh",
+          "target": "~/"
+        }
+      ]
   },
   "environment": {
     "uilayout": "terminal"
