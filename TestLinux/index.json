@@ -35,7 +35,7 @@
     "assets": {
       "client": [
         {
-          "file": "courseBase.sh",
+          "file": "courseBase1.sh",
           "target": "~/"
         }
       ],
