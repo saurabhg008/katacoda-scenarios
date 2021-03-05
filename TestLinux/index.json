@@ -28,8 +28,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "courseBase.sh",
-      "courseData": "init-env.sh"
+      "code": "courseBase.sh"
     },
     "finish": {
       "text": "finish.md"
