@@ -27,25 +27,12 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "courseBase.sh",
+      "courseData": "init-env.sh"
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "courseBase3.sh",
-          "target": "~/"
-        }
-      ],
-      "host01": [
-        {
-          "file": "courseBase.sh",
-          "target": "/var/tmp/",
-          "chmod": "+x"
-        }
-      ]
     }
   },
   "environment": {
