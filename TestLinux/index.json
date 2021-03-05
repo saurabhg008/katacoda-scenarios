@@ -42,7 +42,7 @@
       "host01": [
         {
           "file": "courseBase1.sh",
-          "target": "~/",
+          "target": "/var/tmp/",
           "chmod": "+x"
         }
       ]
