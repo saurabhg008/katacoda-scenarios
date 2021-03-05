@@ -35,13 +35,13 @@
     "assets": {
       "client": [
         {
-          "file": "courseBase1.sh",
+          "file": "courseBase3.sh",
           "target": "~/"
         }
       ],
       "host01": [
         {
-          "file": "courseBase.sh",
+          "file": "courseBase1.sh",
           "target": "~/"
         }
       ]
