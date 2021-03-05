@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "courseData": "courseBase.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
@@ -28,12 +27,25 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "courseData": "courseBase.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
     }
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "courseBase.sh",
+        "target": "~/"
+      }
+    ],
+    "host01": [
+      {
+        "file": "courseBase.sh",
+        "target": "~/"
+      }
+    ]
   },
   "environment": {
     "uilayout": "terminal"
