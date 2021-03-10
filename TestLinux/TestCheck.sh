@@ -16,7 +16,7 @@ done
 function user_check
 {
 cat /etc/passwd |grep -i Sangeeta
-if [$? -eq 0 ]; then
+if [ $? -eq 0 ]; then
 echo "Users Exist."
 else
 echo "User doesnt exist"
