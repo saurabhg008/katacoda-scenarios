@@ -1,3 +1,6 @@
+#!/bin/bash
+function file_check
+{
 FILE1=/tmp/testfile
 FILE2=/tmp/Saurabh
 FILE3=/tmp/Gaurav
@@ -9,3 +12,5 @@ else
 echo "$FILE does not exist."
 fi
 done
+}
+file_check
