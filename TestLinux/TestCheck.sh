@@ -13,4 +13,14 @@ echo "$FILE does not exist."
 fi
 done
 }
+function user_check
+{
+cat /etc/passwd |grep -i Sangeeta
+if [$? -eq 0 ]; then
+echo "Users Exist."
+else
+echo "User doesnt exist"
+fi
+}
 file_check
+user_check

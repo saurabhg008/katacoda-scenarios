@@ -1,1 +1,1 @@
-Create a file under /tmp named "Gaurav"
+Create a user named "Sangeeta"
