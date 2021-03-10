@@ -15,7 +15,7 @@ done
 }
 function user_check
 {
-cat /etc/passwd |grep -i Sangeeta
+cat /etc/passwd |grep -i Sangeeta > /dev/null
 if [ $? -eq 0 ]; then
 echo "Users Exist."
 else
