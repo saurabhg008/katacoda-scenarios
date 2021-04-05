@@ -23,4 +23,3 @@ echo "User doesnt exist"
 fi
 }
 file_check
-user_check
