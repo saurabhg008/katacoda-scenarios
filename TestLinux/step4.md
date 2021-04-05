@@ -1,1 +1,1 @@
-Create a user named "sangeeta"
+Generate a ssh key for user 'testuser' and place it under '/home/testuser'

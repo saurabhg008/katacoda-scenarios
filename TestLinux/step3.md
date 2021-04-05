@@ -1,1 +1,1 @@
-Create a file under /tmp named "abhishek"
+Assign a home directory '/home/testuser' to user 'testuser'

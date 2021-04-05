@@ -1,1 +1,1 @@
-Create a file under /tmp named "saurabh"
+Create a user called 'testuser'
