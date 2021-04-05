@@ -6,27 +6,27 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Question 1",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Question 2",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Question 3",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Question 4",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Results time :) ",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Checking your test.. Hold on Tight",
         "text": "step6.md",
         "code": "TestCheck.sh"
       },

@@ -1,1 +1,1 @@
-Thank you for taking the test.
+You can now refresh the page to launch the test again. Happy Learning !!
