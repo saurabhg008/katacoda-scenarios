@@ -1,1 +1,1 @@
-Assign a home directory '/home/testuser' to user 'testuser'
+Generate a ssh key for user 'testuser' and place it under '/home/testuser'
