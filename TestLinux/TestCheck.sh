@@ -2,9 +2,9 @@
 function file_check
 {
 FILE1=/tmp/testfile
-FILE2=/tmp/Saurabh
-FILE3=/tmp/Gaurav
-FILE4=/tmp/Abhishek
+FILE2=/tmp/saurabh
+FILE3=/tmp/gaurav
+FILE4=/tmp/abhishek
 for FILE in $FILE1 $FILE2 $FILE3 $FILE4; do
 if [ -f "$FILE" ]; then
     echo "$FILE exists."

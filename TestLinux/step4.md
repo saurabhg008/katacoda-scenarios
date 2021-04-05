@@ -1,1 +1,1 @@
-Create a user named "Sangeeta"
+Create a user named "sangeeta"
