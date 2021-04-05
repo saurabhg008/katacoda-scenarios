@@ -1,1 +1,1 @@
-Create a user called 'testuser'
+Assign a home directory '/home/testuser' to user 'testuser'
