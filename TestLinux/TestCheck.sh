@@ -7,9 +7,9 @@ FILE3=/tmp/gaurav
 FILE4=/tmp/abhishek
 for FILE in $FILE1 $FILE2 $FILE3 $FILE4; do
 if [ -f "$FILE" ]; then
-    echo "$FILE exists."
+    echo "PASS: $FILE exists."
 else
-echo "$FILE does not exist."
+echo "FAIL: $FILE does not exist."
 fi
 done
 }
