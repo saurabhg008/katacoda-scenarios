@@ -1,5 +1,5 @@
 #!/bin/bash
-FILE1=/tmp/testfile
+FILE1=/tmp/testfile > /dev/null
 FILE2=/tmp/saurabh
 FILE3=/tmp/gaurav
 FILE4=/tmp/abhishek
