@@ -10,15 +10,12 @@ if [ -f "$FILE1" ]; then
 else
 echo "Question4: FAIL" >> /tmp/testresults
 fi
-done
 }
 test_permission()
 {
 file="/tmp/testfile"
 per="-rw-r-xr--"
-
 result=`ls -ltrh /tmp/testfile |cut -d ' ' -f 1`
-
 if [ "$result" = "$per" ]
 then
     echo "Question5: PASS" >> /tmp/testresults
