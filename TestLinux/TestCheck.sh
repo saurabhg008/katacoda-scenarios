@@ -1,13 +1,30 @@
 #!/bin/bash
+rm -f /tmp/testresults
 touch /tmp/testresults
-FILE1=/tmp/testfile > /dev/null
-FILE2=/tmp/saurabh
-FILE3=/tmp/gaurav
-FILE4=/tmp/abhishek
-for FILE in $FILE1 $FILE2 $FILE3 $FILE4; do
-if [ -f "$FILE" ]; then
-    echo "Question1: PASS" >> /tmp/testresults
+
+testfile()
+{
+FILE1=/tmp/testfile
+if [ -f "$FILE1" ]; then
+    echo "Question4: PASS" >> /tmp/testresults
 else
-echo "Question1: FAIL" >> /tmp/testresults
+echo "Question4: FAIL" >> /tmp/testresults
 fi
 done
+}
+test_permission()
+{
+file="/tmp/testfile"
+per="-rw-r-xr--"
+
+result=`ls -ltrh /tmp/testfile |cut -d ' ' -f 1`
+
+if [ "$result" = "$per" ]
+then
+    echo "Question5: PASS"
+else
+    echo "Question5: Fail"
+fi
+}
+test_permission
+testfile
