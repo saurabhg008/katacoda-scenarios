@@ -21,9 +21,9 @@ result=`ls -ltrh /tmp/testfile |cut -d ' ' -f 1`
 
 if [ "$result" = "$per" ]
 then
-    echo "Question5: PASS"
+    echo "Question5: PASS" >> /tmp/testresults
 else
-    echo "Question5: Fail"
+    echo "Question5: Fail" >> /tmp/testresults
 fi
 }
 test_permission
