@@ -52,7 +52,7 @@
       {
         "title": "Checking your test.. Hold on Tight",
         "text": "step11.md",
-        "code": "TestCheck.sh"
+        "background": "TestCheck.sh"
       },
       {
         "title": "THANK YOU",
