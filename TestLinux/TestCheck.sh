@@ -58,9 +58,21 @@ else
 echo "Question6: FAIL" >> /tmp/testresults
 fi
 }
+CheckIndex()
+{
+{
+HTTPDFILE=/var/www/html/index.html
+if [ -d "$HTTPDFILE" ]; then
+    echo "Question7: PASS" >> /tmp/testresults
+else
+echo "Question7: FAIL" >> /tmp/testresults
+fi
+}
+}
 CheckUser
 CheckHomeDir
 CheckSshKey
 CheckFile
 CheckPermission
 CheckHttpd
+CheckIndex
