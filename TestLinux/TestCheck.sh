@@ -54,4 +54,3 @@ CheckHomeDir
 CheckSshKey
 CheckFile
 CheckPermission
-CheckUser
