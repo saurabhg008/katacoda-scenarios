@@ -55,8 +55,9 @@
         "background": "TestCheck.sh"
       },
       {
-        "title": "THANK YOU",
-        "text": "step12.md"
+        "title": "Test Results",
+        "text": "step12.md",
+        "code": "TestResults.sh"
       }
     ],
     "intro": {

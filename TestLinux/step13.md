@@ -1,1 +1,1 @@
-Test is being checked.. 
+You can now refresh the page to launch the test again. Happy Learning !!
