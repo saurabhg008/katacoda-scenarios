@@ -1,1 +1,1 @@
-Assign a home directory '/home/testuser' to user 'testuser'
+Create a directory /home/user1 and assign this directory as a home directory of user 'testuser'

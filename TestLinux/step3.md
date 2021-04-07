@@ -1,1 +1,1 @@
-Generate a ssh key for user 'testuser' and place it under '/home/testuser'
+Generate a ssh key (named as 'id_rsa.pub') for user 'testuser' and place it under '/home/testuser/.ssh'
