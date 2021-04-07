@@ -5,28 +5,27 @@ CheckUser()
 {
 cat /etc/passwd |grep -i testuser
 if [ $? -eq 0 ]; then
-echo "Question1: PASS"
+echo "Question1: PASS" >> /tmp/testresults
 else
-echo "Question1: FAIL"
+echo "Question1: FAIL" >> /tmp/testresults
 fi
 }
 CheckHomeDir()
 {
 cat /etc/passwd |grep -i testuser |grep user1
 if [ $? -eq 0 ]; then
-echo "Question2: PASS"
+echo "Question2: PASS" >> /tmp/testresults
 else
-echo "Question2: FAIL"
+echo "Question2: FAIL" >> /tmp/testresults
 fi
 }
-
 CheckSshKey()
 {
 SSHKEYFILE=/home/testuser/.ssh/id_rsa.pub
 if [ -f "$SSHKEYFILE" ]; then
-echo "Question3: PASS"
+echo "Question3: PASS" >> /tmp/testresults
 else
-echo "Question3: FAIL"
+echo "Question3: FAIL" >> /tmp/testresults
 fi
 }
 CheckFile()
@@ -50,8 +49,9 @@ else
     echo "Question5: Fail" >> /tmp/testresults
 fi
 }
-
-
+CheckUser
+CheckHomeDir
+CheckSshKey
 CheckFile
 CheckPermission
 CheckUser
