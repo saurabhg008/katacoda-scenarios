@@ -49,8 +49,18 @@ else
     echo "Question5: Fail" >> /tmp/testresults
 fi
 }
+CheckHttpd()
+{
+HTTPDDIR=/var/www/html/
+if [ -d "$HTTPDDIR" ]; then
+    echo "Question6: PASS" >> /tmp/testresults
+else
+echo "Question6: FAIL" >> /tmp/testresults
+fi
+}
 CheckUser
 CheckHomeDir
 CheckSshKey
 CheckFile
 CheckPermission
+CheckHttpd
