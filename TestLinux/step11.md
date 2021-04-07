@@ -1,1 +1,1 @@
-Test is being checked.. Wait for 10 seconds and then click Continue !!
+Test is being checked.. Click Continue !!
