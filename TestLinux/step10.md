@@ -1,1 +1,1 @@
-Click 'Continue' to view the results.
+Test is being checked.. Click Continue !!
