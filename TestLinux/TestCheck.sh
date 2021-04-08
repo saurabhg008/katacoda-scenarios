@@ -75,11 +75,6 @@ if [ -L /var/tmp/linkfile2 ]; then
 else
     echo "Question8: FAIL" >> /tmp/testresults
 fi
-CalPercentage()
-{
-pass="$(cat /tmp/testresults |grep PASS |wc -l)"
-perc="$($pass/8*100)"
-}
 CheckUser
 CheckHomeDir
 CheckSshKey
@@ -88,4 +83,3 @@ CheckPermission
 CheckHttpd
 CheckIndex
 CheckLink
-CalPercentage
