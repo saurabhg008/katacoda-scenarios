@@ -1,8 +1,8 @@
 {
   "title": "Linux",
-  "description": "Linux Test",
-  "difficulty": "Intermediate",
-  "time": "60 minutes",
+  "description": "Test your Linux Skills",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
