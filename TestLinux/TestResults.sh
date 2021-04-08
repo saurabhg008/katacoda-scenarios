@@ -2,12 +2,8 @@
 clear
 sleep 10
 clear
-CalPercentage()
-{
 pass="$(cat /tmp/testresults |grep PASS |wc -l)"
-perc="$($pass/8*100)"
-echo "You scored $perc %"
-}
+perc="$(awk -v n="$pass" 'BEGIN{ print int(n*100/8) }')"
 clear
+echo "You scored $perc %"
 cat /tmp/testresults
-CalPercentage
