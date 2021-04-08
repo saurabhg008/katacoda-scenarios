@@ -1,1 +1,1 @@
-Test is being checked.. Click Continue !!
+Click Continue to begin checking.
