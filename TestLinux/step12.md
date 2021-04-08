@@ -1,1 +1,1 @@
-Here are the Results. 
+Results coming up in 10 seconds.

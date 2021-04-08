@@ -1,1 +1,1 @@
-Test is being checked.. Click Continue !!
+Your score is ready.. Click Continue to see !!

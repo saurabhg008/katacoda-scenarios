@@ -46,7 +46,7 @@ if [ "$result" = "$per" ]
 then
     echo "Question5: PASS" >> /tmp/testresults
 else
-    echo "Question5: Fail" >> /tmp/testresults
+    echo "Question5: FAIL" >> /tmp/testresults
 fi
 }
 CheckHttpd()
@@ -75,6 +75,11 @@ if [ -L /var/tmp/linkfile2 ]; then
 else
     echo "Question8: FAIL" >> /tmp/testresults
 fi
+CalPercentage()
+{
+pass="$(cat /tmp/testresults |grep PASS |wc -l)"
+perc="$($pass/8*100)"
+}
 CheckUser
 CheckHomeDir
 CheckSshKey
@@ -83,3 +88,4 @@ CheckPermission
 CheckHttpd
 CheckIndex
 CheckLink
+CalPercentage
